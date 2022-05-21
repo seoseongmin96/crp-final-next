@@ -1,9 +1,11 @@
+import { Layout,Home } from "@/components"
 import React from 'react'
 
-const index = () => {
+export default function HomePage() {
   return (
-    <div>index</div>
+    <Layout>
+    <Home/>
+    </Layout>
+    
   )
 }
-
-export default index

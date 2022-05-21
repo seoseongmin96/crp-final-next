@@ -1,9 +1,12 @@
-import React from 'react'
-
-const Layout = () => {
-  return (
-    <div>Layout</div>
-  )
+import styles from "../styles/Layout.module.css";
+import {Modal, Pagination, Table} from "@/components";
+export function Layout({children}) {
+    return (
+        <div className={styles.container}>
+            <main className={styles.main}>{children}</main>
+            <Table/>
+            <Pagination/>
+            <Modal/>
+        </div>
+    );
 }
-
-export default Layout

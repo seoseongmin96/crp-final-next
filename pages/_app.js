@@ -1,11 +1,17 @@
-import '../styles/globals.css'
-import { Header, Footer } from '@/components'
-const MyApp = ({ Component }) => {
-  return(<>
+import React from "react";
+import {Header, Footer, Nav} from "../components/index";
+
+const App = ({ Component}) => {
+  return <>
     <Header/>
-    <Component/>
-    <Footer/>
-    </>
-  )
+    <Nav/><div className='CRP'>
+      <Component/>
+      </div>
+      <Footer/>
+      </>
+    
+    
+  
 }
-export default MyApp
+
+export default App
