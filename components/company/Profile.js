@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "@/styles/pro.module.css";
+import styles from "@/styles/profile.module.css";
 
 
-export default function Profile(){
+export function Profile(){
      return(
        <>
           <h1>개발자 프로필</h1>

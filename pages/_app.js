@@ -1,7 +1,7 @@
 import React from "react";
 import {Header, Footer, Nav} from "../components/index";
 
-const App = ({ Component}) => {
+export default function App ({ Component}) {
   return <>
     <Header/>
     <Nav/><div className='CRP'>
@@ -14,4 +14,3 @@ const App = ({ Component}) => {
   
 }
 
-export default App
