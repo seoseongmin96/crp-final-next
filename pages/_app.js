@@ -7,7 +7,7 @@ const App = ({ Component}) => {
     <Nav/><div className='CRP'>
       <Component/>
       </div>
-      <Footer/>
+      <Footer/>   
       </>
     
     
